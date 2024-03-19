@@ -5,22 +5,17 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
+			title: 'Open Game Dev',
 			social: {
-				github: 'https://github.com/withastro/starlight',
+				github: 'https://github.com/emistorrs/opengamedev.org',
+				twitter: "https://twitter.com/EmiStorrs",
+				email: "mailto:emi@dataerrata.com"
 			},
 			sidebar: [
-				{
-					label: 'Guides',
-					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', link: '/guides/example/' },
-					],
-				},
-				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
-				},
+				{ label: "Home", link: '/'},
+				{ label: "The Framework", link: '/theframework'},
+				{ label: "Cohort 1", link: '/cohort1'},
+				{ label: "Credits", link: '/credits'},
 			],
 		}),
 	],
