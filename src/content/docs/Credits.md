@@ -9,7 +9,7 @@ sidebar:
 Creator: 
 
 - Emi Storrs
-    - [@EmiStorrs](https://twitter.com/emistorrs) | [dataerrata.com](https://dataerrata.com)
+    - [@EmiStorrs](https://twitter.com/emistorrs) | [dataerrata.com](http://dataerrata.com)
 
 Contributors:
 
